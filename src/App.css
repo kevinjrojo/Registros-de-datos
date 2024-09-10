@@ -1,0 +1,155 @@
+body {
+  background-color: #111729;
+  background-image: url("./img/bg-illustration.svg");
+  background-repeat: no-repeat;
+  background-position: right 5vh;
+}
+.logo {
+  padding: 3%;
+  width: 25vh;
+}
+.qrcode {
+  width: 100%;
+  margin-top: 28vh;
+  text-align: center;
+}
+.input {
+  z-index: 0;
+  position: relative;
+  font-size: 1.125rem;
+  padding-left: 2.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #364153;
+  width: 40%;
+  padding: 1.375rem;
+  background-color: #070a13;
+  border: 0.125rem #3662e3 solid;
+  border-radius: 1.25rem;
+  left: 3.125rem;
+}
+.btn1 {
+  position: relative;
+  left: -5.625rem;
+  z-index: 1;
+  color: aliceblue;
+  background-color: #3662e3;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.125rem;
+  width: 8.125rem;
+  padding: 1.0625rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.ocultar {
+  display: none;
+}
+#logo {
+  width: 15vh;
+  display: flex;
+  margin-top: 0;
+  margin-left: 2%;
+}
+.nav {
+  display: grid;
+  place-items: center;
+  height: 30vh;
+}
+.QR {
+  margin-top: 20vh;
+  display: grid;
+  justify-content: center;
+  width: 32vh;
+  place-items: center;
+  border-radius: 1000px;
+  padding: 3vh;
+}
+#miId {
+  display: block;
+  background-color: white;
+  padding: 3vh;
+  border-radius: 1.25rem;
+  width: 11.25rem;
+  height: 11.25rem;
+}
+.funciones {
+  position: absolute;
+  top: 70%;
+}
+.btn2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 0.9375rem;
+  padding: 1.25rem;
+  background-color: #3662e3;
+  color: white;
+  margin: 10vh;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn3 {
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  cursor: pointer;
+  border-radius: 0.9375rem;
+  padding: 1.25rem;
+  border: none;
+  background-color: #3662e3;
+  color: white;
+  margin: 10vh;
+}
+@media (min-width: 300px) and (max-width: 900px) {
+  body {
+    background-position: 20vh 5vh;
+  }
+
+  .input {
+    width: 80%;
+    font-size: 1rem;
+    padding-left: 0.625rem;
+    left: 0;
+    padding: 1.125rem;
+    border-radius: 0.9375rem;
+  }
+
+  .btn1 {
+    top: -3.306rem;
+    border-radius: 0.9375rem;
+    left: 33.5%;
+    width: 5rem;
+    font-size: 0.8125rem;
+  }
+  .funciones {
+    top: 35rem;
+  }
+  .btn2 {
+    padding: 2vh !important;
+    margin-left: 2vh !important;
+  }
+  .btn3 {
+    padding: 2vh !important;
+    margin-left: 2vh !important;
+  }
+  .QR {
+    margin-top: 15vh;
+    width: 16rem;
+    height: 16rem;
+    padding: 0.5rem;
+  }
+  canvas {
+    border: 2rem white solid;
+    width: 65%;
+    border-radius: 2rem;
+  }
+  #miId {
+    border: 0.3rem white solid;
+    width: 70%;
+    height: 70%;
+    border-radius: 2rem;
+  }
+
+  .btn2,
+  .btn3 {
+    border-radius: 0.9375rem;
+    padding: 5%;
+    margin: 2.5rem;
+  }
+}

@@ -1,14 +1,11 @@
-import "./style.css";
-
+import "./App.css";
+import { Logo } from "./Component/Logo";
+import { Input } from "./Component/Input";
 export function App() {
   return (
-    <div>
-      <form className="formulario-1">
-        <h1 className="title">Registrate</h1>
-        <label htmlFor="nombre" className="text">
-          Nombre
-        </label>
-      </form>
+    <div className="qrcode">
+      <Logo />
+      <Input text={"Ingrese su URL"} mostrarInput />
     </div>
   );
 }
